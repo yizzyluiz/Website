@@ -1,0 +1,15 @@
+body {
+  height: 3500px;
+  overflow-x: hidden;
+  background-color:rgb(33, 33, 33);
+}
+
+p {
+  font-family: Montserrat;
+}
+
+div {
+  font-family: montserrat;
+  font-weight: 600;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,112 @@
+.our-responsibility-section {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  top: 2050px;
+  left: 0px;
+  right: 0px;
+  height: 450px;
+  background-color: rgb(255, 227, 234);
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.our-respon-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial;
+  color: rgb(58, 13, 24);   
+  padding-bottom: 25px;
+}
+.respon-container {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  top: 120px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+
+.respon-icons {
+  display: flex;
+}
+
+.respon-image,
+.respon-image-1,
+.respon-image-2,
+.respon-image-3 {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 35%;
+  border-width: 8px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.respon-image {
+  background-color: lightseagreen;
+  border-color: rgb(108, 225, 220);
+}
+
+.respon-image-1 {
+  background-color: rgb(255, 68, 0);
+  border-color: rgb(255, 154, 117);
+}
+
+.respon-image-2 {
+  background-color: rgb(0, 174, 255);
+  border-color: rgb(105, 207, 255);
+}
+
+.respon-image-3 {
+  background-color: rgb(231, 235, 0);
+  border-color: rgb(255, 252, 171)
+}
+
+.respon-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.respon-info {
+  font-size: 14px;
+  font-weight: 500;
+  width: 300px;
+  line-height: 25px;
+}
+
+.respon-image:hover,
+.respon-image-1:hover,
+.respon-image-2:hover,
+.respon-image-3:hover  {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.respon-container:hover  {
+  top: 80px;
+}
+
+.respon-title:hover {
+  color:rgb(0, 174, 255);
+}
+
+.respon-header {
+  font-family: Arial;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 110px;
+}

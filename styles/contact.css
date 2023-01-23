@@ -1,0 +1,223 @@
+.information-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 6550px;
+  height: 300px;
+  right: 0;
+  left: 0;
+  background-color: rgb(81, 2, 22);
+  color: rgb(255, 255, 255);
+  font-family: Arial; 
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.uni-alumni-container {
+  position: relative;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  width: 400px;
+
+}
+
+.contact-image {
+  height: 67px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.uni-alumni-info {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial;
+  color:rgb(148, 148, 148);
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.phone-no,
+.fax,
+.email {
+  font-family: Arial;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.email {
+  font-size: 15px;
+  margin-left: 0px;
+}
+
+
+.get-in-touch-container {
+  position: relative;
+  top: -5px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Arial;
+  width: 300px; 
+}
+
+.in-touch {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.in-touch-info {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial;
+  color:rgb(148, 148, 148);
+  line-height: 22px;
+  margin-bottom: 15px;
+  width: 250px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.email-box {
+  font-family: Arial;
+  width: 190px;
+  height: 45px;
+  background-color: rgb(121, 4, 33);
+  border: none;
+}
+
+.email-box::placeholder {
+  font-weight: 500;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  padding-left: 10px;
+}
+
+.telegram {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  background-color: rgb(173, 1, 44);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.telegram:hover {
+  background-color: rgb(222, 11, 64);
+}
+
+.socialink {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.socialink:hover {
+  opacity: 0.8;
+}
+
+.useful-container {
+  position: relative;
+  top: 5px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Arial;
+  width: 300px; 
+}
+
+.useful {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.arrow {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.pricing {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.arrow:hover,
+.pricing:hover {
+  position: relative;
+  left: 5px;
+  color: rgb(143, 28, 57);
+}
+
+.university-container {
+  position: relative;
+  top: 5px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Arial;
+  width: 300px; 
+}
+
+.copyright-section {
+  position: absolute;
+  top: 6950px;
+  left: 0px;
+  right: 0px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 11, 64);
+}
+
+.all-rights {
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}

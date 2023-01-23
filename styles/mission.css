@@ -1,0 +1,67 @@
+.our-mission-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1480px;
+  right: 50px;
+  height: 350px;
+  width: 850px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(176, 77, 101);
+  background-color: rgb(255, 227, 234);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.our-mission-img1 {
+  position: absolute;
+  height: 335px;
+  width: 220px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.our-mission-title {
+  position: relative;
+  left: 240px;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 600;
+  color:rgb(56, 27, 34);
+  margin-bottom: 0px;
+}
+
+.our-mission-desc {
+  font-weight: 400;
+  line-height: 25px;
+  position: relative;
+  left: 240px;
+  width: 600px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+} 
+
+.our-mission-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 240px;
+  bottom: 15px;
+  background-color: rgb(255, 0, 64);
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.our-mission-button:hover {
+ background-color: rgb(58, 13, 24);
+}

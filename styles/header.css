@@ -1,0 +1,302 @@
+.upper-head {
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 60px;
+  padding-left: 15px;
+  padding-right: 10px;
+  z-index: 150;
+}
+
+@media (min-width: 1000px) {
+  .upper-head {
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 60px;
+  width: 1000px;
+  padding-left: 15px;
+  padding-right: 10px;
+  z-index: 150;
+}
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 950px;
+  top: 60px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 100px;
+  padding-left: 70px;
+  padding-right: 50px;
+  z-index: 200;
+}
+
+.top-logo {
+  height: 40px;
+  object-fit: cover;
+  margin-left: -10px;
+ }
+}
+
+@media (min-width: 1001px) {
+  .upper-head {
+  color: white;
+  position: fixed;
+  display: flex;
+  width: 1240px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  height: 60px;
+  padding-left: 15px;
+  padding-right: 10px;
+  z-index: 150;
+}
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  top: 60px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 100px;
+  padding-left: 70px;
+  padding-right: 50px;
+  z-index: 200;
+}
+
+.top-logo {
+  height: 40px;
+  object-fit: cover;
+  margin-left: -15px;
+ }
+}
+
+@media (max-width: 750px) {
+  .upper-head {
+    color: white;
+    position: fixed;
+    width: 750px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 10px;
+    z-index: 150;
+  }
+  .email {
+    font-size: 11px;
+    margin-right: 30px;
+    margin-left: 70px;
+  }
+  
+  .hotline {
+    font-size: 11px;
+  }
+
+  .nav-bar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    top: 60px;
+    right: 0;
+    left: 0;
+    background-color: white;
+    height: 100px;
+    padding-left: 70px;
+    padding-right: 50px;
+    z-index: 200;
+  }
+
+.contact,
+.home,
+.events,
+.pages,
+.about,
+.blog,
+.gallery {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: black;
+  background-color: white;
+  padding-top: 41px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  transition: 0.20s;
+}
+
+.top-logo {
+  height: 20px;
+  object-fit: cover;
+  margin-left: -30px;
+}
+}
+
+@media (max-width: 500px) {
+
+  .buttons {
+    position: relative;
+    left: 150px;
+  }
+
+  .email,
+  .hotline {
+    opacity: 0;
+  }
+
+  .top-logo {
+    height: 0px;
+    width: 0px;
+  }
+
+  .nav-bar {
+    position: fixed;
+    left: 10px;
+    margin-left: -40px;
+  }
+}
+
+
+.email {
+  font-size: 14px;
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
+.hotline {
+  font-size: 14px;
+}
+
+.buttons {
+  position: absolute;
+  right: 10px;
+}
+
+.login {
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(255, 0, 64);
+  border: none;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.signup {
+  font-family: montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(255, 149, 0);
+  border: none;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.login:hover {
+  background-color: rgb(255, 0, 64);
+  font-weight: 500;
+  color: white;
+}
+
+.signup:hover {
+  background-color: rgb(255, 0, 64);
+  font-weight: 500;
+  color: black;
+}
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  top: 60px;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 100px;
+  padding-left: 70px;
+  padding-right: 50px;
+  z-index: 200;
+}
+
+.top-logo {
+  height: 50px;
+  object-fit: cover;
+  
+}
+
+
+.contact,
+.home,
+.events,
+.pages,
+.about,
+.blog,
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: black;
+  background-color: white;
+  padding-top: 41px;
+  padding-bottom: 40px;
+  cursor: pointer;
+  transition: 0.20s;
+}
+
+.contact:hover,
+.pages:hover,
+.home:hover,
+.blog:hover,
+.gallery:hover,
+.events:hover,
+.about:hover {
+  background-color: rgb(255, 0, 64);
+  padding-top: 41px;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
